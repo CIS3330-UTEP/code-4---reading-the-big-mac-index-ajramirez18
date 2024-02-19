@@ -15,7 +15,7 @@ def get_big_mac_price_by_year(year,country_code):
 
     mean_price_rounded = round(mean_price, 2)
 
-    return year, country_code, mean_price_rounded
+    return mean_price_rounded
     
     pass # Remove this line and code your function
 
@@ -28,7 +28,7 @@ def get_big_mac_price_by_country(country_code):
 
     mean_price_rounded = round(mean_price, 2)
 
-    return country_code, mean_price_rounded    
+    return mean_price_rounded    
 
     pass # Remove this line and code your function
 
@@ -73,6 +73,12 @@ def get_the_most_expensive_big_mac_price_by_year(year):
     pass # Remove this line and code your function
 
 if __name__ == "__main__":
+
+    
+    country_code = 'kor'
+    print(get_big_mac_price_by_country(country_code))
+
+
 
 
     pass # Remove this line and code your user interface
